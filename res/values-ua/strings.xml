@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Credit and Deposit Calculator</string>
+    <string name="credit_term">Термін кредиту (в місяцях):</string>
+    <string name="credit_sum">Сума кредиту:</string>
+    <string name="credit_percents">Відсоткова ставка, %:</string>
+    <string name="credit_monthly_payout">Місячний платіж:</string>
+    <string name="credit_calculation_title">Розрахунок кредиту:</string>
+    <string name="cbsb_url">http://cbsb.com.ua/?page_id=517</string>
+    <string name="radio_annuity">Ануїтет</string>
+    <string name="radio_classic">Класика</string>
+    <string name="credit_overpay">Переплата:</string>
+    <string name="button_calculate">Розрахувати</string>
+    <string name="credit_dialog_total">Загальна сума:</string>
+    <string name="credit_dialog_month">\nМісяць</string>
+    <string name="credit_dialog_body">\nТіло</string>
+    <string name="credit_dialog_from_percents">Відсотки\n+комиссия</string>
+    <string name="credit_dialog_payment">\nПлатіж</string>
+    <string name="error_empty_sum">Поле \"Сумма\" пусто</string>
+    <string name="error_empty_percents">Поле \"Відсоткова ставка\" пусто</string>
+    <string name="error_empty_term">Поле \"Термін кредиту\" пусто</string>
+    <string name="error_one_time_comission">Поле \"Одноразова комісія\" пусто</string>
+    <string name="error_monthly_comission">Поле \"Щомісячна комісія\" пусто</string>    
+    <string name="error_invalid_format">Невірний формат, перевірте введені дані</string>
+    <string name="error_deposit_empty_sum">Поле \"Сума депозиту\" пусто</string>
+    <string name="error_deposit_empty_percents">Поле \"Відсоткова ставка\" пусто</string>
+    <string name="error_deposit_empty_term">Поле \"Термін депозиту\" пусто</string>
+    <string name="title_additional">Додатково</string>
+    <string name="credit_one_time_comission">Одноразова комісія, %: </string>
+    <string name="credit_monthly_comission">Щомісячна комісія, %: </string>
+    <string name="credit_effective">Ефективна ставка: </string>
+    <string name="deposit_sum">Сума депозиту:</string>
+    <string name="deposit_percents">Відсоткова ставка, %:</string>
+    <string name="deposit_term">Термін депозиту (в місяцях):</string>
+    <string name="radio_nocap">Без капіталізації</string>
+    <string name="radio_monthlycap">Щомісячна капіталізація</string>
+    <string name="radio_yearlycap">Капіталізація раз на рік</string>
+    <string name="deposit_calculation_title">Розрахунок депозиту:</string>
+    <string name="deposit_result_percents">Відсотки по депозиту: </string>
+    <string name="deposit_result_sum">Загальна сума виплат: </string>
+    <string name="credit_calculation_title_main">Розрахунок кредиту: </string>
+    
+    
+    
+<string name="admob_publisher_id">a1519def4440c82</string>
+    
+    
+    
+
+
+</resources>

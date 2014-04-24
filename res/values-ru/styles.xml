@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_black">#FF000000</color>
+    <color name="mapdialog_bkg_color">#FFBDCCCC</color>
+    <color name="green_dark">#FF669900</color>
+    <color name="green_mediumdark">#FF75A800</color>
+    <color name="green_medium">#FF83B600</color>
+    <color name="green_mediumlight">#FF92C500</color>
+    <color name="green_light">#FFA8D324</color>
+    <color name="white_strokebkg">#FFF8F8F8</color>
+    <color name="gray_strokebg">#FFCACACA</color>
+    <color name="gray_strokebg_alpha">#BBCACACA</color>
+    <color name="orange_dark">#FFFF8A00</color>
+    <color name="orange_mediumdark">#FFFF9909</color>
+    <color name="orange_medium">#FFFFA713</color>
+    <color name="orange_mediumlight">#FFB61C</color>
+    <color name="orange_light">#FFFFC641</color>
+    <style name="mapdialog_style" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/content_bubble</item>
+    </style>
+    <style name="button_main_text">
+        <item name="android:textColor">@color/white_strokebkg</item>
+        <item name="android:padding">12dp</item>
+    </style>
+    <color name="color_red_main">#FF1C23</color>
+</resources>

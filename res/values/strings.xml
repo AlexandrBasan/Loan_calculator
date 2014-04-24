@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Credit and Deposit Calculator</string>
+    <string name="credit_term">Loan Term (in months):</string>
+    <string name="credit_sum">Credit Sum:</string>
+    <string name="credit_percents">Interest rate, %:</string>
+    <string name="credit_monthly_payout">Month payment:</string>
+    <string name="credit_calculation_title">Credit calculation:</string>
+    <string name="cbsb_url">http://cbsb.com.ua/?page_id=517</string>
+    <string name="radio_annuity">Annuity</string>
+    <string name="radio_classic">Differentiated</string>
+    <string name="credit_overpay">Total interest:</string>
+    <string name="button_calculate">Calculate</string>
+    <string name="credit_dialog_total">Total amount:</string>
+    <string name="credit_dialog_month">\nMonth</string>
+    <string name="credit_dialog_body">\nPrincipal</string>
+    <string name="credit_dialog_from_percents">Interest\n+commission</string>
+    <string name="credit_dialog_payment">\nPayment</string>
+    <string name="error_empty_sum">Field \"Credit Sum\" is empty</string>
+    <string name="error_empty_percents">Field \"Interest rate\" is empty</string>
+    <string name="error_empty_term">Field \"Loan Term\" is empty</string>
+    <string name="error_one_time_comission">Field \"One-time commission\" is empty</string>
+    <string name="error_monthly_comission">Field \"Monthly commission\" is empty</string>
+    <string name="error_invalid_format">Wrong format, check the data</string>
+    <string name="error_deposit_empty_sum">Field \"Deposit sum\" is empty</string>
+    <string name="error_deposit_empty_percents">Field \"Interest rate\" is empty</string>
+    <string name="error_deposit_empty_term">Field \"Deposit Term\" is empty</string>
+    <string name="title_additional">Additionally</string>
+    <string name="credit_one_time_comission">One-time commission, %: </string>
+    <string name="credit_monthly_comission">Monthly commission, %: </string>
+    <string name="credit_effective">Effective rate: </string>
+    <string name="deposit_sum">Deposit sum:</string>
+    <string name="deposit_percents">Interest rate, %:</string>
+    <string name="deposit_term">Deposit Term (in months):</string>
+    <string name="radio_nocap">Without capitalization</string>
+    <string name="radio_monthlycap">Monthly capitalization</string>
+    <string name="radio_yearlycap">Capitalization once a year</string>
+    <string name="deposit_calculation_title">Deposit calculation: </string>
+    <string name="deposit_result_percents">Interest on deposits: </string>
+    <string name="deposit_result_sum">The total amount of payments: </string>
+    <string name="credit_calculation_title_main">Credit calculation: </string>
+    
+<string name="admob_publisher_id">a1519def4440c82</string>
+ </resources>

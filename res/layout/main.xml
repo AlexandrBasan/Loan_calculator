@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/content_bubble"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/main_button_credit"
+        android:layout_width="240dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="@string/credit_calculation_title_main"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green_medium" />
+    
+    <Button
+        android:id="@+id/main_button_deposit"
+        android:layout_width="240dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/deposit_calculation_title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green_medium" />
+    
+    <ImageView
+        android:id="@+id/image_cbsb_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logo_new" />
+
+</LinearLayout>

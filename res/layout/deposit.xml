@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/content_bubble"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_deposit_calculation_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="@string/deposit_calculation_title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green_medium" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/green_medium" />
+
+    <ScrollView
+        android:id="@+id/depositScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_deposit_sum_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:text="@string/deposit_sum"
+                android:textColor="@color/green_medium" />
+
+            <EditText
+                android:id="@+id/et_deposit_sum"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:inputType="numberDecimal"
+                android:maxLength="8" />
+
+            <TextView
+                android:id="@+id/tv_deposit_percents_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:text="@string/deposit_percents"
+                android:textColor="@color/green_medium" />
+
+            <EditText
+                android:id="@+id/et_deposit_percents"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:digits="0123456789.,"
+                android:inputType="numberDecimal"
+                android:maxLength="5" />
+
+            <TextView
+                android:id="@+id/tv_deposit_term_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:text="@string/deposit_term"
+                android:textColor="@color/green_medium" />
+
+            <EditText
+                android:id="@+id/et_deposit_term"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:inputType="numberDecimal"
+                android:maxLength="8" />
+
+            <LinearLayout
+                android:id="@+id/details_deposit_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/content_bubble"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/details_deposit_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="5dip"
+                        android:padding="4dp"
+                        android:text="@string/title_additional"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/green_medium" />
+
+                    <ImageView
+                        android:id="@+id/dropdown_deposit_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/dropdown_icon" />
+                </RelativeLayout>
+
+                <LinearLayout 
+                    android:id="@+id/detais_deposit_hiding_ll"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                
+                    <RadioGroup
+                android:id="@+id/radio_group_deposit_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio_button_nocap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/radio_nocap"
+                    android:textColor="@color/green_medium" />
+
+                <RadioButton
+                    android:id="@+id/radio_button_monthlycap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio_monthlycap"
+                    android:textColor="@color/green_medium" />
+                <RadioButton
+                    android:id="@+id/radio_button_yearlycap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio_yearlycap"
+                    android:textColor="@color/green_medium" />
+            </RadioGroup>
+                    
+                </LinearLayout>
+            </LinearLayout>
+
+            
+
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_title_deposit_percents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="@string/deposit_result_percents"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/green_medium" />
+            
+            <TextView
+                android:id="@+id/tv_result_deposit_percents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="88"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/color_red_main" />
+
+            </LinearLayout>
+
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_title_deposit_sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="@string/deposit_result_sum"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/green_medium" />
+            
+            <TextView
+                android:id="@+id/tv_result_deposit_sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="99"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/color_red_main" />
+            
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/button_calculate_deposit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/button_calculate"
+                android:textColor="@color/green_medium"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/image_cbsb_deposit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/logo_new" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
